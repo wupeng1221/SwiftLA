@@ -7,5 +7,5 @@
 
 public struct VectorView<Element> {
     internal var storage: _VectorViewStorage
-    internal var parts: _VectorViewPartsImmutable
+    internal var parts: _VectorViewPartsImmutable<Element>
 }
